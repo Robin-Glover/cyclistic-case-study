@@ -1,2 +1,2 @@
 # cyclistic-case-study
-A data analysis project using Excel, SQL, and Tableau to analyze Cyclistic bike-share data and propose strategies for increasing member conversion.
+This project explores user behavior from the Cyclistic bike-share program in Chicago to determine how to convert casual riders into annual members. Using Excel for data cleaning, SQL for analysis, and Tableau for visualization, I identified key behavioral patterns and proposed data-driven marketing strategies to support membership growth.
