@@ -126,9 +126,9 @@ While anonymized data limits confirmation, this behavioral pattern warrants deep
 
 ## Supporting Files
 
-- **[Full SQL Query Sheet](link-to-your-sql-sheet-on-GitHub)** — includes queries for ride summaries, seasonal trends, time blocks, and UNION ALL dataset construction.
-- **[Cleaned Aggregated Dataset (UNION ALL)](link-to-your-cleaned-csv-on-GitHub)** — final summary used for Tableau dashboard.
-- **[Visualisations relating to specific insights](images)** - Collection of charts to help clearly identify insights.
+- [Full SQL Query Sheet](supporting_files/sql_queries.sql)
+- [Cleaned Aggregated Dataset (UNION ALL)](supporting_files/Cyclistic_Data_for_Visualisation.csv)
+- Chart Visuals in [Images Folder](supporting_files/images/)
 
 To clearly communicate findings, I built an **interactive dashboard in Tableau** and structured this portfolio on GitHub.
 
