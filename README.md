@@ -131,7 +131,7 @@ While anonymized data limits confirmation, this behavioral pattern warrants deep
 
 ## Supporting Files
 
-- [SQL Query Walkthrough Sheet](supporting_files/Cyclistic_SQL_Walkthrough)
+- [SQL Query Walkthrough Sheet](supporting_files/Cyclistic_SQL_Walkthrough.pdf)
 - [Cleaned Aggregated Dataset (UNION ALL)](supporting_files/Cyclistic%20Data%20for%20Visualisation.csv)
 - Chart Visuals in [Images Folder](supporting_files/images/)
 
