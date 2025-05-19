@@ -126,8 +126,8 @@ While anonymized data limits confirmation, this behavioral pattern warrants deep
 
 ## Supporting Files
 
-- [Full SQL Query Sheet](supporting_files/sql_queries.sql)
-- [Cleaned Aggregated Dataset (UNION ALL)](supporting_files/Cyclistic_Data_for_Visualisation.csv)
+- [SQL Query Walkthrough Sheet](supporting_files/Cyclistic_SQL_Walkthrough)
+- [Cleaned Aggregated Dataset (UNION ALL)](supporting_files/Cyclistic%20Data%20for%20Visualisation.csv)
 - Chart Visuals in [Images Folder](supporting_files/images/)
 
 To clearly communicate findings, I built an **interactive dashboard in Tableau** and structured this portfolio on GitHub.
