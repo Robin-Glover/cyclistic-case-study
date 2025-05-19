@@ -171,7 +171,7 @@ Below is a summary of the most important insights identified through data analys
 
 Late-night spikes (particularly between 12 AM and 4 AM) were observed for casual riders on weekends. These may reflect a combination of shift work and late social outings. This unique behavioral segment is visualized below.
 
-![Ride Count by Hourly Usage](supporting_files/images/Ride Count by Hourly Usage.png)
+![Ride Count by Hourly Usage](supporting_files/images/Ride_Count_by_Hourly_Usage.png)
 
 *Figure: Casual user ride count by hour block on weekends*
 
