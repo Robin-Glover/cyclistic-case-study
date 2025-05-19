@@ -10,7 +10,7 @@ Cyclistic is a bike-share program in Chicago, operated by a fictional company cr
 
 To support this goal, the team wants to better understand how casual riders and annual members use the service differently. This will help guide future marketing strategies to convert casual riders into annual members.
 
-*** Key question: ***
+*** Key question:
 
 > How do annual members and casual riders use Cyclistic bikes differently?
 
@@ -217,13 +217,6 @@ These data-driven strategies are designed to align with Cyclistic’s goal of co
 ## Tools Used
 
 - **Microsoft Excel**: Utilized for initial data cleaning, transformation, and exploratory analysis.
-- **MySQL**: Employed for combining, further data cleaning and querying large datasets to extract meaningful patterns and insights.
-- **Tableau Public**: Created interactive dashboards to visualize data trends and support findings.
-- **GitHub**: Hosted the project repository, including documentation and code, for version control and collaboration.
-
-## Tools Used
-
-- **Microsoft Excel**: Utilized for initial data cleaning, transformation, and exploratory analysis.
 - **SQL**: Employed for combining, further data cleaning and querying large datasets to extract meaningful patterns and insights.
 - **Tableau Public**: Created interactive dashboards to visualize data trends and support findings.
 - **GitHub**: Hosted the project repository, including documentation and code, for version control and collaboration.
@@ -242,8 +235,8 @@ Restrictions:
 - Do not host, stream, publish, distribute, sublicense, or sell the data as a standalone dataset.
 - Do not imply affiliation, approval, endorsement, or sponsorship by Divvy or the City of Chicago.
 - Do not use trademarks or trade names of Lyft Bikes and Scooters, LLC, the City of Chicago, or any sponsor of the Divvy service without written permission.
-- 
-Tis project complies with the terms of the license by using the data solely for educational and analytical purposes, without any commercial intent.
+  
+This project complies with the terms of the license by using the data solely for educational and analytical purposes, without any commercial intent.
 
 ## What I Learned
 
