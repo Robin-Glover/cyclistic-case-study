@@ -42,15 +42,9 @@ Using Microsoft Excel and SQL, following best practices from the Google Data Ana
 
 These transformations enabled consistent analysis across all time periods and user types.
 
-
-
-
-
 ## Analysis: The Six-Step Data Analysis Process
 
 This project followed the six-step data analysis process introduced in the Google Data Analytics Certificate:
-
----
 
 ### 1. Ask
 
@@ -124,8 +118,6 @@ To clearly communicate findings, I built an **interactive dashboard in Tableau**
 To explore the full dashboard:
 [View on Tableau Public](https://public.tableau.com/views/CyclisticPortfolioProject-Draft/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
----------
-
 Note: While the dataset includes ride types (e.g., classic, electric, docked), analysis showed minimal variation in usage between user groups based on ride type or maximum ride length. Therefore, these dimensions were excluded from the final dashboard to maintain clarity and relevance.
 
 ### 6. Act
@@ -144,6 +136,8 @@ Below is a summary of the most important insights identified through data analys
 
 - **Casual riders** take longer rides on average (approx. 35 minutes) compared to **members** (approx. 15 minutes).
 - Median values show a more accurate representation of "typical" behavior, as some rides were extreme outliers.
+
+![Weekly Ride Patterns](visuals/weekly_ride_patterns.png)
 
 ### 2. **Day of Week Patterns**
 
