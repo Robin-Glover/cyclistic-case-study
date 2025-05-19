@@ -1,8 +1,10 @@
 # Cyclistic Case Study
 
-This portfolio project explores usage data from the fictional Cyclistic bike-share company based in Chicago. The primary objective was to identify behavioral trends in how casual and annual members use the service, and to provide data-driven recommendations for converting more casual riders into annual members.
+This portfolio project analyzes usage data from the fictional Cyclistic bike-share company based in Chicago. The primary goal was to uncover behavioral patterns in how casual and annual members use the service, and to support data-driven recommendations for increasing annual memberships.
 
-Using Excel for data cleaning, SQL for analysis and formatting data tables, and Tableau for visualization, I followed the six-step data analysis process taught in the Google Data Analytics Certificate to uncover actionable business insights.
+Following the six-step data analysis process from the Google Data Analytics Certificate, I used Excel for initial data cleaning, SQL (MySQL) for deeper analysis and data transformation, and Tableau for building interactive visualizations.
+
+The final cleaned dataset was used to develop dashboards comparing member and casual rider behavior across ride length, time of day, and day of week. Interactive filters allow viewers to explore seasonal trends and identify opportunities for targeted marketing strategies.
 
 ** Business Task
 
