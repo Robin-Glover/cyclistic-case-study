@@ -149,20 +149,35 @@ Below is a summary of the most important insights identified through data analys
 
 ---
 
-### 1. **Ride Length Differences**
+### 1. **Ride Length Differences (Weekdays Only)**
 
-- **Casual riders** take longer rides on average (approx. 35 minutes) compared to **members** (approx. 15 minutes).
-- Median values show a more accurate representation of "typical" behavior, as some rides were extreme outliers.
+- **Casual riders** take longer rides on average — typically around **30 to 35 minutes** — compared to **members**, who average about **12 to 15 minutes**.
+- Median ride lengths are notably lower for both groups, reflecting the presence of outliers, particularly among casual users. Casual riders typically show a **median of 18–22 minutes**, while members are closer to **9–11 minutes**.
+- This chart represents **only weekday usage between 6 AM and 8 PM**. Including weekend and overnight data would likely further increase the average ride lengths for casual users due to leisure-based behavior.
+
+![Average and Median Ride Length by User Type](supporting_files/images/Avg%20Ride%20Count%20&%20Duration%20-%20Weekday%20_%20Season.png)
+
+*Figure: Average vs Median Ride Length for Members and Casuals — showing impact of outliers*
+
+**Note:** This view focuses on weekday working hours to help identify patterns that may indicate commuter behavior among casual riders. The results suggest that while members are more consistent in their commute patterns, some casual users may also be using the service for work-related travel — particularly in spring and fall.
 
 ### 2. **Day of Week Patterns**
 
 - **Members** ride consistently throughout the workweek.
 - **Casual riders** are much more active on **weekends**, particularly Saturdays and Sundays.
 
+![Daily Ride Count Averages](supporting_files/images/Ride%20Count%20by%20Weekday.png)
+
+*Figure: Daily usage count for both user groups*
+
 ### 3. **Seasonal Trends**
 
 - Casual usage **spikes in summer months** (June–August), with lower activity in winter.
 - Member usage remains **more stable** throughout the year, showing consistent utility.
+
+![Ride Averages by Weekday](supporting_files/images/Ride%20Count%20by%20Season.png)
+
+*Figure: Average ride count per season for both user groups*
 
 ### 4. **Time of Day**
 
@@ -178,10 +193,6 @@ Late-night spikes (particularly between 12 AM and 4 AM) were observed for casual
 ### Visuals
 
 These insights were visualized using Tableau to make them easier to interpret and explore:
-
-![Weekly Ride Patterns](visuals/weekly_ride_patterns.png)
-
-![Ride Length Comparison](visuals/ride_length_comparison.png)
 
 > Full interactive dashboard: [View on Tableau Public](https://public.tableau.com/views/CyclisticPortfolioProject-Draft/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
