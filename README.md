@@ -6,13 +6,16 @@ Following the six-step data analysis process from the Google Data Analytics Cert
 
 The final cleaned dataset was used to develop dashboards comparing member and casual rider behavior across ride length, time of day, and day of week. Interactive filters allow viewers to explore seasonal trends and identify opportunities for targeted marketing strategies.
 
-** Business Task
+To explore the full dashboard:
+[View on Tableau Public](https://public.tableau.com/views/CyclisticPortfolioProject-Draft/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+## Business Task
 
 Cyclistic is a bike-share program in Chicago, operated by a fictional company created for this case study. The director of marketing believes that increasing annual membership will be key to future profitability. 
 
 To support this goal, the team wants to better understand how casual riders and annual members use the service differently. This will help guide future marketing strategies to convert casual riders into annual members.
 
-*** Key question:
+### Key question:
 
 > How do annual members and casual riders use Cyclistic bikes differently?
 
@@ -50,7 +53,7 @@ This project followed the six-step data analysis process introduced in the Googl
 
 ### 1. Ask
 
-**Business Task:**  
+**Business Task:**
 Determine how casual riders and annual members use Cyclistic bikes differently, with the goal of converting more casual riders into members.
 
 **Guiding Questions:**
