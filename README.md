@@ -111,7 +111,24 @@ I concluded the analysis phase by combining the casual and member user tables us
 The chosen fields were:
 - `user_type`, `season`, `month_name`, `month_num`, `week_day`, `day_of_week`, `hour_block`, `blocked_hours`, `ride_count`, `avg_ride_length`, `max_ride_length`
 
+Additional Exploration:
+
+Further inspection of ride frequency by time block and day revealed a significant spike in casual rider activity during late-night and early morning hours on weekends — particularly between 12 AM and 4 AM on Saturdays and Sundays.
+
+This trend suggests two likely user profiles:
+
+- **Late-shift workers** (e.g., hospitality or fast-food employees) using bikes for affordability and availability.
+- **Social riders** returning from nightlife activities, where traditional public transit options are unavailable or infrequent.
+
+While anonymized data limits confirmation, this behavioral pattern warrants deeper investigation. In the meantime, targeted marketing or promotions could be explored for these unique time windows.
+
 ### 5. Share
+
+## Supporting Files
+
+- **[Full SQL Query Sheet](link-to-your-sql-sheet-on-GitHub)** — includes queries for ride summaries, seasonal trends, time blocks, and UNION ALL dataset construction.
+- **[Cleaned Aggregated Dataset (UNION ALL)](link-to-your-cleaned-csv-on-GitHub)** — final summary used for Tableau dashboard.
+- **[Visualisations relating to specific insights](images)** - Collection of charts to help clearly identify insights.
 
 To clearly communicate findings, I built an **interactive dashboard in Tableau** and structured this portfolio on GitHub.
 
@@ -137,8 +154,6 @@ Below is a summary of the most important insights identified through data analys
 - **Casual riders** take longer rides on average (approx. 35 minutes) compared to **members** (approx. 15 minutes).
 - Median values show a more accurate representation of "typical" behavior, as some rides were extreme outliers.
 
-![Weekly Ride Patterns](visuals/weekly_ride_patterns.png)
-
 ### 2. **Day of Week Patterns**
 
 - **Members** ride consistently throughout the workweek.
@@ -153,6 +168,12 @@ Below is a summary of the most important insights identified through data analys
 
 - Members show high usage during **commute hours** (7–9 AM, 4–6 PM).
 - Casual riders often ride during **midday and early afternoon** (10 AM–4 PM), likely for leisure.
+
+Late-night spikes (particularly between 12 AM and 4 AM) were observed for casual riders on weekends. These may reflect a combination of shift work and late social outings. This unique behavioral segment is visualized below.
+
+![Late Night Casual Rides](images/Ride_Count_by_Weekday.png)
+
+*Figure: Casual user ride count by hour block on weekends*
 
 ### Visuals
 
@@ -175,6 +196,8 @@ Based on the analysis of Cyclistic's ride data, the following strategies are rec
 3. **Highlight Cost Savings**: Emphasize the cost benefits of annual memberships over multiple single rides, especially for users who ride frequently.
 
 4. **Enhanced User Experience**: Improve app features to make the transition from casual to member seamless, such as one-click upgrades or personalized ride summaries showing potential savings.
+
+5. **Explore Off-Hours Membership Incentives**: The late-night usage trend suggests a previously untapped segment of social and shift-worker casual users. Offering discounted off-peak memberships or night/weekend passes could increase sign-ups from this group.
 
 Implementing these strategies could lead to increased membership sign-ups and enhanced customer loyalty.
 
